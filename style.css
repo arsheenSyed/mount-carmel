@@ -1,0 +1,50 @@
+* {
+    list-style: none;
+}
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+
+
+
+#home-section {
+    background: url('banner.jpg') no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.dark-overlay {
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+
+
+.home-inner {
+    padding-top: 200px;
+}
+
+.imgsize {
+    height: 400px;
+}
+
+footer#footer {
+background-color: #fff;
+}
+
+@media (max-width: 450px) {
+    .exlpore-head-section .container .row .col.mobile {
+        text-align: left;
+    }
+}
